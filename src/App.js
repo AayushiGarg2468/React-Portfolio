@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AdminPortal from './Components/AdminPortal/AdminPortal';
+import NavBar from './Components/NavBar/NavBar'
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <NavBar />
+      <AdminPortal />
+    </>
   );
 }
 
