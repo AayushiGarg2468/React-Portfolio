@@ -1,18 +1,20 @@
-import React from 'react';
+
 import { useFormik } from 'formik';
 import { AdminValidation } from './Schema';
-import './AdminPortal.css'
+import './AdminPortal.scss'
+import { NavLink } from 'react-router-dom';
+
 
 const AdminPortal = () => {
 
-    useFormik({
+    const {touched, errors, handleBlur, handleSubmit, handleChange} = useFormik({
         initialValues: {
-            email: '',
-            password: ''
-        },
+             email: '',
+             password: ''
+         },
         validationSchema: AdminValidation,
 
-    })
+     })
     return (
 
         <div className='AdminBlock'>
@@ -36,10 +38,9 @@ const AdminPortal = () => {
                                 name="password"
                             />
                         </div>
-                        <button
-                            type="submit"
-                        >
+                        <button><NavLink to='/tableprojects'>
                             Submit
+                            </NavLink>
                         </button>
                     </form>
                 </div>
