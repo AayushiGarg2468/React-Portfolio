@@ -1,0 +1,32 @@
+
+.contact.section{
+  padding: 6.25rem;
+}
+
+.contactFormDiv{
+  position: relative;
+  margin-bottom: 1.875rem;
+}
+
+.contactFormInput{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--Container-color);
+  color: var(--text-color);
+  box-shadow: var(--shadow);
+  border: none;
+  border-radius: 1.875rem;
+  outline: none;
+  padding: 0.625rem 1.875rem;
+  z-index: 1;
+  height: 3.75rem;
+}
+
+.contactFormArea{
+  height: 10.25rem;
+}
+.contactFormArea textarea{
+  resize: none;
+}

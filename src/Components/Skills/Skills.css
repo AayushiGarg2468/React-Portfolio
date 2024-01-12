@@ -1,0 +1,37 @@
+.SkillContainer{
+    text-align: center;
+    
+}
+
+.SkillText{
+    margin-bottom: 2rem;
+}
+.skillSlider{
+    margin-top: 2rem;
+    height: 320px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillSlider img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.imgHTML{
+    max-height: 100%;
+    
+}
+
+.imgCSS{
+    max-height: 100%;
+    width: 220px;
+    
+}
+
+.imgReact{
+    max-height: 100%;
+    width: 220px;
+}

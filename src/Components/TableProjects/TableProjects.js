@@ -1,5 +1,5 @@
 import React from 'react'
-import './TableProjects.scss'
+import './TableProjects.css'
 
 const Table_Projects = () => {
   return (

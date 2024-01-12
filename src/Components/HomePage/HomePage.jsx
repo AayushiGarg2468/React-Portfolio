@@ -1,18 +1,17 @@
 import React from 'react'
-import './HomePage.scss'
+import './HomePage.css'
+import HomeSocials from './HomeSocials'
 
 const HomePage = () => {
   return (
-    <div className='homeContainer'>
-      <div className="homeTextcontainer">
-        <h1>This is Aayushi Garg</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium beatae odio voluptatem amet odit! Nihil veritatis laborum assumenda maxime vero, unde, molestias architecto iusto explicabo beatae animi voluptatem deleniti ex.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et placeat commodi possimus repudiandae voluptatibus quas iusto fugit velit obcaecati, optio libero unde aperiam? Ipsa quaerat veniam atque nihil unde eos?</p>
+    <section className="home container" id="home">
+      <div className='intro'>
+        <img src="Me.jpeg" alt="" className='homeImg' />
+        <h1 className='homeName'>Aayushi Garg</h1>
+        <span className='homeEducation'>I'm a Front-end Developer</span>  
+        <HomeSocials/>
       </div>
-      <div className="homeImageContainer">
-        <img src="HomePageImage.png" alt="" />
-      </div>
-    </div>
+    </section>
   )
 }
 

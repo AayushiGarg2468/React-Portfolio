@@ -1,7 +1,7 @@
 
 import { useFormik } from 'formik';
 import { AdminValidation } from './Schema';
-import './AdminPortal.scss'
+import './AdminPortal.css'
 import { NavLink } from 'react-router-dom';
 
 

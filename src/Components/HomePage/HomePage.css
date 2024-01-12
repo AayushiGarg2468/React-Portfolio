@@ -1,0 +1,39 @@
+.home{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    max-width: 540px;
+    text-align: center;
+}
+
+.homeImg{
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 0.875rem;
+}
+
+.homeName{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.homesocials{
+    margin-top: 1.5rem;
+}
+
+.homesocialslink{
+    margin-right: 0.5rem;
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.homesocialslink:hover{
+    color: hsl(43, 100%, 68%);
+}

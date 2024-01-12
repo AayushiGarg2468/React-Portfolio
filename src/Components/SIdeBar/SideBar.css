@@ -1,0 +1,43 @@
+.aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(body-color);
+    width: 160px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    align-items: center;
+    
+}
+
+.NavLogo{
+    color: var(--first-color);
+    font-family: var(--logo-font);
+    font-size: 3rem;
+}
+
+.navList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.navLink{
+    color: var(--title-color);
+    font-weight: var(font-bold);
+    display: flex;
+    transition: 0.3s;
+}
+
+.navLink:hover{
+    color: hsl(43, 100%, 68%);
+}
+
+.homeIcon{
+    margin-right: 0.5rem;
+}
+
